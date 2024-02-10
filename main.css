@@ -1,7 +1,7 @@
 .container {
     margin: 20px;
     display: grid;
-    grid-template-columns: repeat(2, 15rem);
+    grid-template-columns: repeat(auto-fill, 15rem);
     justify-content: center;
     grid-gap: 1.5rem;
     grid-auto-rows: minmax(8rem, auto);
@@ -10,11 +10,12 @@
 }
 
 .quote {
-  border: 1px solid #fa923f;
-  background: #ffbd87;
+  border: 1px solid yellow;
+  background: yellow;
   font-family: sans-serif;
   padding: 1rem;
-  border-radius: 5px;
+  /* border-radius: 5px; */
+  box-shadow: 3px 3px .5rem black;
 }
 
 .quote--featured {
